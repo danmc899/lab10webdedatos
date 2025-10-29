@@ -24,9 +24,9 @@
    foaf:familyName "Muñoz" ;
    foaf:age 26 ; # 
    foaf:img <http://raw.githubusercontent.com/danmc899/lab10webdedatos/refs/heads/main/avatar.png> ;
-   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah>, <http://raw.githubusercontent.com/Marmaduke23/watos/refs/heads/main/foaf.ttl#jjj>, <http://users.dcc.uchile.cl/~pmendoza/foaf.ttl#pm>, http://raw.githubusercontent.com/juansebm/lab10_webofdata/main/foaf.ttl#juanvale;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah>, <http://raw.githubusercontent.com/Marmaduke23/watos/refs/heads/main/foaf.ttl#jjj>, <http://users.dcc.uchile.cl/~pmendoza/foaf.ttl#pm>, <http://raw.githubusercontent.com/juansebm/lab10_webofdata/main/foaf.ttl#juanvale>;
    foaf:interest  dbr:Semantic_Web, dbr:Soccer, dbr:The_Legend_of_Zelda, dbr:Pizza; 
-   social:likesMovie dbr:Toy_Story_3, dbr:Shrek_2 dbr:Interstellar_(film) ;
+   social:likesMovie dbr:Toy_Story_3, dbr:Shrek_2, <http://dbpedia.org/resource/Interstellar_(film)> ;
    social:hasSpiritAnimal  dbr:Lyon;
    social:hasFavouritePlatonicSolid  dbr:Truncated_icosahedron;
    foaf:myersBriggs "INTJ" ;
