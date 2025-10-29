@@ -1,0 +1,33 @@
+@base <> .
+
+@prefix dm: <> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2025-10-25"^^xsd:date ;
+   dc:title "Daniel's FOAF Profile"@en ;
+   foaf:primaryTopic <#dm> ;
+   dc:creator <#dm> .
+
+<#dm> a foaf:Person ;
+   rdfs:label "Daniel Muñoz" ;
+   rdfs:comment "Associate Student of the MDS"@es , "Estudante Asociado del MDS"@es ;
+   foaf:name "Daniel Muñoz" ;
+   foaf:givenName "Daniel" ;
+   foaf:familyName "Muñoz" ;
+   foaf:age 26 ; # 
+   foaf:img <> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah>, <http://raw.githubusercontent.com/Marmaduke23/watos/refs/heads/main/foaf.ttl#jjj>;
+   foaf:interest  dbr:Semantic_Web, dbr:Soccer, dbr:The_Legend_of_Zelda, dbr:Pizza; 
+   social:likesMovie dbr:Toy_Story_3, dbr:Shrek_2 dbr:Interstellar_(film) ;
+   social:hasSpiritAnimal  dbr:Lyon;
+   social:hasFavouritePlatonicSolid  dbr:Truncated_icosahedron;
+   foaf:myersBriggs "INTJ" ;
+   foaf:birthday '08-31' .
